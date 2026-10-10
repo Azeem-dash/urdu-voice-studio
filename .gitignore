@@ -1,0 +1,19 @@
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+.claude/
+
+# Python environment and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Personal voice references and generated output
+my_voice/
+voices/
+urdu_voice_*.wav
+urdu_voice_*.m4a
+datasets/
